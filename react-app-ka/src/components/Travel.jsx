@@ -1,13 +1,12 @@
 import Section from './Section.jsx'
 import { useT } from '../i18n/LanguageContext.jsx'
-const gardensUrl = import.meta.env.BASE_URL + 'photos/estate-gardens.jpg'
 
 export default function Travel() {
   const t = useT()
   return (
     <Section id="travel" label="Travel" kicker={t.travel.kicker} title={t.travel.title}>
       <figure className="travel-photo">
-        <img src={gardensUrl} alt={t.travel.alt} style={{ objectPosition: '70% 55%' }} />
+        <img src="/photos/estate-gardens.jpg" alt={t.travel.alt} style={{ objectPosition: '70% 55%' }} />
       </figure>
       <div className="travel-grid">
         {t.travel.cards.map(c => (
