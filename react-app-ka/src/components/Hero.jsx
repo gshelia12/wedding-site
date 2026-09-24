@@ -1,4 +1,4 @@
-mport { WEDDING } from '../data/wedding.js'
+import { WEDDING } from '../data/wedding.js'
 import { useCountdown } from '../hooks/useCountdown.js'
 import { useT } from '../i18n/LanguageContext.jsx'
 import { googleCalendarUrl } from '../lib/calendar.js'
