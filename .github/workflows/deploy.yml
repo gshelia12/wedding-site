@@ -28,8 +28,7 @@ jobs:
       - run: npm install
       - run: npm run build
         env:
-          VITE_BASE: /wedding-site/
-      - run: rm -f dist/CNAME
+          VITE_BASE: /
       - uses: actions/upload-pages-artifact@v3
         with:
           path: react-app-ka/dist
