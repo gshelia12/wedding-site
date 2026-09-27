@@ -1,0 +1,1 @@
+wedding-site v2 — 2026-09-27 — has Location.jsx, Photos.jsx, hamburger nav
