@@ -48,8 +48,8 @@ export default {
     intro: 'მამულის ტერიტორიაზე თუ გადაწყვეტთ დარჩენას, აქ ორი სასტუმროა — ორივე ცერემონიისა და ქორწილის ღონისძიების ადგილიდან ფეხით რამდენიმე წუთშია. ქორწილის სტუმრებისთვის ორივე სასტუმროში სპეციალური ფასი მოქმედებს; ოთახები შეზღუდულია, ამიტომ დაჯავშნას ადრე გირჩევთ.',
     alt: 'წინანდლის მამულის ბაღები',
     cards: [
-      { title: 'Radisson Collection, წინანდალი', body: 'ქორწილის სტუმრებისთვის სპეციალური შეთავაზების გამოსაყენებლად, გადადით ბმულზე:', price: '575 ₾ + 18% დღგ', linkText: 'დაჯავშნეთ Radisson-ში', linkHref: 'https://www.radissonhotels.com/en-us/booking/room-display?checkInDate=2026-10-17&checkOutDate=2026-10-19&adults[]=1&children[]=0&searchType=pac&promotionCode=WEDGS&hotelCode=TBSRC' },
-      { title: 'Park Hotel, წინანდალი', body: 'მიწერეთ ელფოსტაზე და აღნიშნეთ, რომ ჩვენი ქორწილის სტუმარი ხართ:', price: '315 ₾ + 18% დღგ', linkText: 'Hotelwelcome@tsinandaliestate.ge', linkHref: 'mailto:Hotelwelcome@tsinandaliestate.ge' },
+      { title: 'Radisson Collection', body: 'ქორწილის სტუმრებისთვის სპეციალური შეთავაზების გამოსაყენებლად, გადადით ბმულზე:', price: '575 ₾ + 18% დღგ', linkText: 'დაჯავშნეთ Radisson-ში', linkHref: 'https://www.radissonhotels.com/en-us/booking/room-display?checkInDate=2026-10-17&checkOutDate=2026-10-19&adults[]=1&children[]=0&searchType=pac&promotionCode=WEDGS&hotelCode=TBSRC' },
+      { title: 'Park Hotel', body: 'მიწერეთ ელფოსტაზე და აღნიშნეთ, რომ ჩვენი ქორწილის სტუმარი ხართ:', price: '315 ₾ + 18% დღგ', linkText: 'Hotelwelcome@tsinandaliestate.ge', linkHref: 'mailto:Hotelwelcome@tsinandaliestate.ge' },
     ],
   },
   rsvp: {
