@@ -27,8 +27,7 @@ export default {
     kicker: 'Running Order',
     title: 'How the day unfolds',
     items: [
-      { time: '2:00', name: 'Arrival & check-in', desc: 'Settle into your room at the Estate ahead of the ceremony.' },
-      { time: '5:00', name: 'Signing ceremony', desc: 'Complimentary drinks and classical music.' },
+      { time: '5:00', name: 'Signing ceremony', desc: 'Drinks and classical music.' },
       { time: '6:00', name: 'Main event', desc: 'Dinner and toasts in the Amphitheatre. Georgian music by "Herio", Italian quartet "The Squires".' },
       { time: '11:00', name: 'DJ', desc: 'The celebration continues.' },
     ],

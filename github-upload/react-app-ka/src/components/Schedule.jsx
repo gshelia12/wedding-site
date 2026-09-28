@@ -10,7 +10,7 @@ export default function Schedule() {
         {t.schedule.items.map((item, i) => (
           <li key={item.time}>
             <span className="tl-icon" aria-hidden="true">
-              <svg width="15" height="15" viewBox="0 0 256 256" fill="currentColor"><path d={SCHEDULE_ICONS[i] || SCHEDULE_ICONS[0]} /></svg>
+              <svg width="15" height="15" viewBox="0 0 256 256" fill="currentColor"><path d={SCHEDULE_ICONS[i + 1] || SCHEDULE_ICONS[0]} /></svg>
             </span>
             <div className="tl-time">{item.time}</div>
             <div className="tl-name">{item.name}</div>
