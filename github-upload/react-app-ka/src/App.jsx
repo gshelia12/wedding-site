@@ -18,8 +18,8 @@ export default function App() {
         <Hero />
         <Details />
         <Schedule />
-        <Location />
         <Travel />
+        <Location />
         <Rsvp />
         <Photos />
         <Faq />

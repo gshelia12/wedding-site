@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { NAV_KEYS } from '../data/wedding.js'
 import { useT } from '../i18n/LanguageContext.jsx'
 import LangToggle from './LangToggle.jsx'
+import MusicToggle from './MusicToggle.jsx'
 
 export default function Nav() {
   const t = useT()
@@ -19,6 +20,7 @@ export default function Nav() {
           {NAV_KEYS.map(k => <a key={k} href={'#' + k}>{t.nav[k]}</a>)}
         </div>
         <div className="nav-right">
+          <MusicToggle />
           <LangToggle />
           <button type="button" className="nav-burger" aria-label="Menu" aria-expanded={open} onClick={() => setOpen(o => !o)}>
             <span /><span /><span />

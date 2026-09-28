@@ -183,3 +183,7 @@ html[lang="ka"] .travel-price, html[lang="ka"] .faq-body p, html[lang="ka"] .fac
 html[lang="ka"] .footer-names, html[lang="ka"] .rsvp-error { font-style: normal; }
 html[lang="ka"] .event-sub { font-family: var(--georgian); font-size: 14.5px; }
 html[lang="ka"] .details-lede { font-family: var(--georgian); font-size: 16.5px; }
+
+/* Music toggle */
+.music-toggle { width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; background: none; border: 1px solid var(--line); border-radius: 50%; cursor: pointer; color: var(--muted); transition: color .15s, border-color .15s; }
+.music-toggle:hover, .music-toggle.is-playing { color: var(--burgundy); border-color: var(--gold); }

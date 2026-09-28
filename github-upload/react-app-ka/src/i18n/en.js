@@ -13,25 +13,25 @@ export default {
     units: { days: 'Days', hours: 'Hours', minutes: 'Minutes', seconds: 'Seconds' },
   },
   details: {
-    kicker: 'The Day',
-    title: 'In the birthplace of Georgian wine',
-    lede: "We are married at Tsinandali Estate, home to Georgia's first bottled wine and Prince Alexander Chavchavadze's historic cellar — amid the October harvest, when the whole valley turns to wine. Guests staying on-site may check in from 2 o'clock.",
+    kicker: 'The Wedding',
+    title: 'You are invited to our wedding',
+    lede: 'With great joy we invite you to Tsinandali Estate on 17 October, where our wedding will take place. The signing ceremony will be held at 17:00 in the estate gardens, beside the Oenotheque. The main celebration begins at 18:00 in the estate amphitheatre.',
     events: [
-      { kicker: 'Signing Ceremony', title: 'The Estate Gardens', sub: 'Tsinandali Estate, Kakheti',
-        facts: [{ label: 'Time', value: "5 o'clock" }, { label: 'Attire', value: 'Black tie', note: '(formal evening wear)', linkText: 'See our recommendations', linkHref: 'https://www.pinterest.com/search/pins/?q=black%20tie%20wedding%20attire&rs=typed' }] },
-      { kicker: 'Main Event', title: 'The Amphitheatre', sub: 'Feast, toasts, and a Georgian celebration',
-        facts: [{ label: 'Time', value: "6 o'clock" }] },
+      { kicker: 'Signing Ceremony', title: 'The Estate Gardens', sub: 'Opposite the Oenotheque',
+        facts: [{ label: 'Time', value: '17:00' }] },
+      { kicker: 'Main Event', title: 'The Amphitheatre', sub: '',
+        facts: [{ label: 'Time', value: '18:00' }, { label: 'Attire', value: 'Black tie', valueHref: 'https://www.pinterest.com/search/pins/?q=black%20tie%20wedding%20attire&rs=typed' }] },
     ],
   },
   schedule: {
     kicker: 'Running Order',
     title: 'How the day unfolds',
     items: [
-      { time: '5:00', name: 'Signing ceremony', desc: 'Drinks and classical music.' },
-      { time: '6:00', name: 'Main event', desc: 'Dinner and toasts in the Amphitheatre. Georgian music by "Herio", Italian quartet "The Squires".' },
-      { time: '11:00', name: 'DJ', desc: 'The celebration continues.' },
+      { time: '17:00', name: 'Signing ceremony', desc: 'Drinks and classical music.' },
+      { time: '18:00', name: 'Main event', desc: 'Dinner and toasts in the Amphitheatre. Georgian music by "Herio", Italian quartet "The Squires".' },
+      { time: '23:00', name: 'DJ', desc: '🎧 💃🕺 🥂' },
     ],
-    note: 'For guests returning to Tbilisi, transport will be provided between 23:00 and 01:00.',
+    note: 'For guests returning to Tbilisi after the celebration, transport from Tsinandali Estate to Tbilisi will be provided between 23:00 and 01:00.',
   },
   location: {
     kicker: 'Location',
@@ -39,13 +39,13 @@ export default {
     address: 'Tsinandali village, Telavi municipality, Kakheti · ≈ 100 km from Tbilisi',
     mapLink: 'Open in Google Maps',
     ways: [
-      { title: 'Transportation', body: 'For guests not arriving by their own transport, transfers between Tbilisi and Tsinandali Estate will be provided on the wedding day, with return departures between 23:00 and 01:00. Details of the departure point and exact times will be sent to you personally after your RSVP. Kindly indicate in the RSVP form which direction you wish to use.' },
+      { title: 'Transportation', body: 'For guests not arriving by their own transport, transfers from Tbilisi to Tsinandali Estate and back will be provided on the wedding day. Details of the departure point and exact times will be sent to you personally after your RSVP. Kindly indicate in the RSVP form which direction you wish to use. Transport from Tsinandali Estate to Tbilisi will run between 23:00 and 01:00.' },
     ],
   },
   travel: {
     kicker: 'Accommodation',
     title: 'Hotel accommodation',
-    intro: 'Staying overnight at the estate is optional. Should you decide to stay, there are two hotels on the grounds, both a few minutes on foot from the ceremony and the main event. Wedding guests receive a special rate at each; rooms are limited, so we recommend booking early.',
+    intro: 'Should you decide to stay on the estate, there are two hotels on the grounds, both a few minutes on foot from the ceremony and the main event. Wedding guests receive a special rate at each; the number of rooms is limited, so we recommend booking in advance. Booking instructions are below.',
     alt: 'The gardens and drive at Tsinandali Estate',
     cards: [
       { title: 'Radisson Collection, Tsinandali', body: 'To use the special wedding-guest offer, follow the link:', price: '575 GEL + 18% VAT', linkText: 'Book at Radisson', linkHref: 'https://www.radissonhotels.com/en-us/booking/room-display?checkInDate=2026-10-17&checkOutDate=2026-10-19&adults[]=1&children[]=0&searchType=pac&promotionCode=WEDGS&hotelCode=TBSRC' },
@@ -55,7 +55,7 @@ export default {
   rsvp: {
     kicker: 'RSVP',
     title: 'Kindly reply by',
-    deadlineDay: '1',
+    deadlineDay: '7',
     deadlineMonth: 'October',
     name: 'Full name',
     placeholder: 'As it appears on your invitation',
@@ -88,5 +88,6 @@ export default {
       { q: 'Are children welcome?', a: 'There will be no dedicated space for children at the event; the evening is planned for adults. If leaving your child is not possible, please let us know in advance.' },
     ],
   },
+  music: { play: 'Play music', pause: 'Pause music' },
   footer: { names: 'Sopo & Giorgi', meta: '17 October 2026 · Tsinandali Estate, Georgia' },
 }
