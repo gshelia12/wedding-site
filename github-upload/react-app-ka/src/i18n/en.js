@@ -49,7 +49,7 @@ export default {
     alt: 'The gardens and drive at Tsinandali Estate',
     cards: [
       { title: 'Radisson Collection, Tsinandali', body: 'To use the special wedding-guest offer, follow the link:', price: '575 GEL + 18% VAT', linkText: 'Book at Radisson', linkHref: 'https://www.radissonhotels.com/en-us/booking/room-display?checkInDate=2026-10-17&checkOutDate=2026-10-19&adults[]=1&children[]=0&searchType=pac&promotionCode=WEDGS&hotelCode=TBSRC' },
-      { title: 'Park Hotel, Tsinandali', body: 'Send an email and mention that you are our wedding guest:', price: '315 GEL + 18% VAT', linkText: 'Hotelwelcome@tsinandaliestate.ge', linkHref: 'mailto:Hotelwelcome@tsinandaliestate.ge' },
+      { title: 'Park Hotel, Tsinandali', body: 'Send an email and mention that you are our wedding guest:', price: '315 GEL + 18% VAT', linkText: 'welcome@tsinandaliestate.ge', linkHref: 'mailto:welcome@tsinandaliestate.ge' },
     ],
   },
   rsvp: {
