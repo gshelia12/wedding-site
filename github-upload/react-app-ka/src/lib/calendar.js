@@ -1,5 +1,5 @@
-// Georgia is UTC+4 year-round. 17 Oct 2026 17:00–23:59 local.
-const CAL = { start: '20261017T130000Z', end: '20261017T195900Z', location: 'Tsinandali Estate, Kakheti, Georgia' }
+// Georgia is UTC+4 year-round. 17 Oct 2026 16:00–23:59 local.
+const CAL = { start: '20261017T120000Z', end: '20261017T195900Z', location: 'Tsinandali Estate, Kakheti, Georgia' }
 
 export function googleCalendarUrl({ calTitle, calDesc }) {
   const p = new URLSearchParams({ action: 'TEMPLATE', text: calTitle, dates: `${CAL.start}/${CAL.end}`, details: calDesc, location: CAL.location })
